@@ -3,7 +3,7 @@ module.exports = {
     
     const Discord = require('discord.js')
     user.toString()
-  	msg.channel.sendMessage("Hey" + (msg) + "," + (user) "Booped you." , msg);
+  	msg.channel.sendMessage("Hey" + (msg) + "," + (user) + "Booped you." , msg);
 
   },
   args: '<string>',
