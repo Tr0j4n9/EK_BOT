@@ -2,7 +2,7 @@ module.exports = {
   main: (bot, msg, settings) => {
 
 
-  	bot.sendNotification("test" + (msg), msg);
+  	message.reply("test" + (msg), msg);
 
   },
   args: '<string>',
