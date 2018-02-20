@@ -1,31 +1,11 @@
 {
   "name": "EK-BOT",
-  "version": "0.1",
-  "description": "A discord bot",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "version": "0.0.1",
+  "main":"bot.js",
+  "author":"Enzo Gladiadis",
+  "description": "For test",
   "dependencies": {
-    "express": "^4.13.3"
-  },
-  "engines": {
-    "node": "4.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tr0j4n9/EK_BOT"
-  },
-  "keywords": [
-    "node",
-    "nodejs",
-    "discord"
-    "discordapi",
-    "discordjs"
-  ],
-  "author": "Enzo Gladiadis",
-  "contributors": [
-    "Enzo Gladiadis"
-  ],
-  "license": "MIT"
+    "discord.js": "latest"
+  }
+
 }
