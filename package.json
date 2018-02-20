@@ -1,14 +1,32 @@
 {
   "name": "EK_BOT",
-  "version": "0.1",
-  "main":"bot.js",
-  "author":"Enzo Gladiadis",
-  "description": "For test",
+  "version": "1.0",
+  "description": "A discord bot.",
+  "author": "Enzo Gladiadis",
+},
+  "scripts": {
+    "test": "vows --spec --isolate",
+    "start": "node bot.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed",
+    "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"
+  },
+  "main": "bot.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Tr0j4n9/EK_BOT/"
+},
+  "bugs": {
+  "url": "https://github.com/Tr0j4n9/EK_BOT/issues"
+},
+  "keywords": [
+  "discord",
+  "discordbot",
+  "discordjs"
+],
   "dependencies": {
     "discord.js": "latest"
-  }
-  "scripts": {
-    "start": "bot.js"
+  },
+  "license": "MIT"
 }
-
-}
+ 
