@@ -2,9 +2,9 @@
   "name": "EK-BOT",
   "version": "0.1.0",
   "description": "A discord bot",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
     "express": "^4.13.3"
@@ -18,12 +18,14 @@
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "nodejs",
+    "discord"
+    "discordapi",
+    "discordjs"
   ],
-  "author": "Mark Pundsack",
+  "author": "Enzo Gladiadis",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    "Enzo Gladiadis"
   ],
   "license": "MIT"
 }
