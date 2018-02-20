@@ -2,7 +2,7 @@ module.exports = {
   main: (bot, msg, settings) => {
     
     var Discord = require("discord.js");
-  	msg.channel.sendMessage("Hey" + (msg) + "," + (username) + "Booped you." , msg);
+  	msg.channel.sendMessage("Hey" + (msg) + ", you got booped!", msg);
 
   },
   args: '<@mention>',
