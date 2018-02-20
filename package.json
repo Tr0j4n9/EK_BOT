@@ -1,6 +1,6 @@
 {
   "name": "EK_BOT",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "A Discord.js bot",
   "main": "bot.js",
   "scripts": {
