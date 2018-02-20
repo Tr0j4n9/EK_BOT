@@ -2,8 +2,8 @@
 module.exports = {
   main: (bot, msg, settings) => {
 
-    
-    msg.channel.send(message);
+    var msg = msg2
+    msg.channel.send(msg2);
     
     
   },
