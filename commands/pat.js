@@ -23,8 +23,8 @@ module.exports = {
                 var obj_keys = Object.keys(pats);
                 var rnd_key = obj_keys[Math.floor(Math.random() *obj_keys.length)];
                 msg.reply(pats[rnd_key].spanreply);
-        msg.channel.send("Hey " + (msg) + ", you got booped!");
-            console.log((msg) + " got patted.")
+        msg.channel.send("Hey " + (msg) + ", you got pat!");
+            console.log((msg) + " got pat!")
     }
 
     console.log((msg) + " got patted.")
