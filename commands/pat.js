@@ -1,3 +1,4 @@
+var total = 0;
 module.exports = {
   main: (bot, msg, settings) => {
     
