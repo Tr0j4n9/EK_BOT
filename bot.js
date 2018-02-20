@@ -173,3 +173,5 @@ bot.on("disconnected", () => {
 });
 
 bot.login(bot.TOKEN);
+
+bot.user.setGame("Type $help");
