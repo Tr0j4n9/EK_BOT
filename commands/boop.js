@@ -2,7 +2,6 @@ module.exports = {
   main: (bot, msg, settings) => {
     
     var Discord = require("discord.js");
-    var sender = user.toString()
   	msg.channel.sendMessage("Hey" + (msg) + "," + (sender) + "Booped you." , msg);
 
   },
