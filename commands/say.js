@@ -3,7 +3,7 @@ module.exports = {
   main: (bot, msg, settings) => {
 
     
-    msg.channel.send(msg);
+    msg.channel.send(message);
     
     
   },
