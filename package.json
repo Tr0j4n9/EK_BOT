@@ -2,7 +2,7 @@
   "name": "EK_BOT",
   "version": "1.0",
   "description": "A discord bot.",
-  "author": "Enzo Gladiadis",
+  "author": "Enzo Gladiadis"
 },
   "scripts": {
     "test": "vows --spec --isolate",
