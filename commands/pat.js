@@ -32,6 +32,6 @@ module.exports = {
     console.log((msg) + " got patted.")
   },
   args: '<@mention>',
-  help: 'Pat another person in your server',
+  help: 'Pat another person in the server',
   hide: false
 }
