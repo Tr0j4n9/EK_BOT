@@ -3,7 +3,7 @@ module.exports = {
     
     const Discord = require('discord.js');
 
-  	message.reply("test" + (msg), msg);
+  	msg.channel.sendMessage("test" + (msg), msg);
 
   },
   args: '<string>',
