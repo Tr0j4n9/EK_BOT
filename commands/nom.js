@@ -6,6 +6,6 @@ module.exports = {
     console.log((msg) + " got cookied.")
   },
   args: '<@mention>',
-  help: 'Cookie another person in your server',
+  help: 'nom another person in the server',
   hide: false
 }
