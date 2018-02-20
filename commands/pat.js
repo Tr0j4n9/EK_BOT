@@ -1,6 +1,8 @@
 module.exports = {
   main: (bot, msg, settings) => {
     
+    
+    var json = require('pat.json');
     var Discord = require("discord.js");
     
     
@@ -12,7 +14,7 @@ module.exports = {
 
     Math.floor(Math.random(mathran1) * 6);
     
-    
+
 
         
   	msg.channel.send("Hey " + (msg) + ", you got patted!");
