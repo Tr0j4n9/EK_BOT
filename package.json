@@ -1,6 +1,6 @@
 {
-  "name": "EK-BOT",
-  "version": "0.0.1",
+  "name": "EK_BOT",
+  "version": "0.1",
   "main":"bot.js",
   "author":"Enzo Gladiadis",
   "description": "For test",
