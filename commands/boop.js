@@ -1,6 +1,7 @@
 module.exports = {
   main: (bot, msg, settings) => {
-
+    
+    const Discord = require('discord.js');
 
   	message.reply("test" + (msg), msg);
 
