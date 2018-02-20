@@ -2,10 +2,10 @@ module.exports = {
   main: (bot, msg, settings) => {
     
     var Discord = require("discord.js");
-  	msg.channel.send("Hey " + (msg) + ", you got nomed! :patato:");
-    console.log((msg) + " got cookied.")
+  	msg.channel.send("Hey " + (msg) + ", you got kissed! :kissing_heart:");
+    console.log((msg) + " got kissed.")
   },
   args: '<@mention>',
-  help: 'nom another person in the server',
+  help: 'kiss another person in the server',
   hide: false
 }
