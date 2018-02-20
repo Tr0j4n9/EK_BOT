@@ -1,9 +1,9 @@
 module.exports = {
   main: (bot, msg, settings) => {
-  	if (message.content === '@')
-  		{
-  				bot.sendNotification("test", msg);
-  		};
+
+
+  	bot.sendNotification("test" + (msg), msg);
+
   },
   args: '<string>',
   help: 'Boop another person in your server',
