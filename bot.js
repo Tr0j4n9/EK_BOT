@@ -8,7 +8,7 @@ var bot = new Discord.Client({autoReconnect: true});
 bot.OWNERID = '<your-discord-id>';
 bot.PREFIX = '<bot-prefix>';
 bot.TOKEN = '<bot-token>';
-// test
+// test 2
 bot.DETAILED_LOGGING = false;
 bot.DELETE_COMMANDS = false;
 
