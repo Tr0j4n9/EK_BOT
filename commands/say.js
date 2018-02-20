@@ -12,6 +12,6 @@ message.channel.send(sayMessage);
 
   },
   args: '<string>',
-  help: 'Boop another person in your server',
-  hide: false
+  help: 'Not ready',
+  hide: true
 }
