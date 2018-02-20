@@ -1,27 +1,30 @@
 module.exports = {
   main: (bot, msg, settings) => {
     
-    
-    var json = require('pat.json');
     var Discord = require("discord.js");
     
+    var pats = require("./pat.json");
     
-    var obj = JSON.parse(text); 
-    obj.employees[links].link;
+            if (pats.length < 1)
+            {
+                pats[0] = "Ouch!";
+            }
     
-    
-    var patGifs = ['https://cdn.discordapp.com/attachments/287305378314846208/415429776069623809/pat-SyFmqkFwW.gif', 'https://cdn.discordapp.com/attachments/287305378314846208/415430123454464010/pat-BkJBQlckz.gif',
-                  'https://cdn.discordapp.com/attachments/287305378314846208/415430143411224577/pat-SJva1kFv-.gif', 'https://cdn.discordapp.com/attachments/287305378314846208/415430166735618058/pat-HJGQlJYwb.gif',
-                  'https://cdn.discordapp.com/attachments/287305378314846208/415430618940178454/pat-Sk2FyQHpZ.gif'];
-    
+    switch (msg.content)
+        {
+            
+            case "total":
+                msg.reply("Total spanks: " + total);
+                break;
+            
+            default:
+                total++;
+                var obj_keys = Object.keys(pats);
+                var rnd_key = obj_keys[Math.floor(Math.random() *obj_keys.length)];
+                msg.reply(pats[rnd_key].spanreply);
+            console.log((msg) + " got patted.")
+    }
 
-    Math.floor(Math.random(mathran1) * 6);
-    
-
-
-        
-  	msg.channel.send("Hey " + (msg) + ", you got patted!");
-    msg.channel.send(links);
     console.log((msg) + " got patted.")
   },
   args: '<@mention>',
