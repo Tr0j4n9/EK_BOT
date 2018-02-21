@@ -3,6 +3,6 @@ module.exports = {
 	msg.reply("Just kidding, this command does not work yet... PM @nullariel#6948 to give some feedback. :hearts:");
   },
   args: '<string>',
-  help: '**Feedback command**',
+  help: '**Feedback command** :yum:',
   hide: false
 }
