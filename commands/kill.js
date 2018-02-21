@@ -2,7 +2,7 @@ module.exports = {
   main: (bot, msg, settings) => {
     
     var Discord = require("discord.js");
-  	bot.sendNotification("Hey " + (msg) + ", you got killed! :gun:");
+    msg.channel.send("Hey " + (msg) + ", " + (msg.author) + ", killed you! :gun:");
     console.log((msg) + " got killed.")
   },
   args: '<@mention>',
