@@ -2,6 +2,7 @@ module.exports = {
   main: (bot, msg, settings) => {
     
     var Discord = require("discord.js");
+    var data = 0;
     this.username = data.username;
   	msg.channel.send("Hey " + (msg) + (data.username) + ", you got cookied! :cookie:");
     console.log((msg) + " got cookied.")
