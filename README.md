@@ -1,4 +1,4 @@
-# paul
+# EK Bot
 
 A  modular bot template for [discord.js](https://github.com/hydrabolt/discord.js/).
 
