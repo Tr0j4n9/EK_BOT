@@ -3,6 +3,7 @@
   main: (bot, msg, settings) => {
     
     var economy = require('discord-eco');
+    var daily = require('./daily');
     
     economy.updateBalance('userID', 'value').then((i) => {
       console.log(i) // Returns the updated result.
