@@ -2,6 +2,7 @@
 
 Made with [discord.js](https://github.com/hydrabolt/discord.js/).
 
+(https://travis-ci.org/Tr0j4n9/EK_BOT#)
 ### Getting Started
 
 First, edit the `bot.js` file and fill out `OWNERID`, `PREFIX`, and `TOKEN`. 
