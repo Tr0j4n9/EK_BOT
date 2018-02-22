@@ -8,9 +8,6 @@
     // This runs when a message is recieved...
     client.on('message', message => {
  
-        // Prefix
-        let prefix = '!';
- 
         // There are multiple ways you can use discord-eco.
  
         // Example: Fetching Balance
