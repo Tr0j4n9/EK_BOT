@@ -6,7 +6,6 @@ module.exports = {
   message.channel.send(`**You got $100!**\n**New Balance:** ${i.money}`);
   
   },
-  args: 'no args',
   help: 'Claim daily coins!',
   hide: false
 }
