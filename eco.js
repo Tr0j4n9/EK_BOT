@@ -3,7 +3,7 @@
 // Calling all packages, REAPEAT calling all packages!
 
 const Discord = require ("discord.js");
-const bot = Discord.client();
+
 const fs = require("fs");
 
 
