@@ -41,7 +41,7 @@ Finally, to run the bot, a simple `node bot.js` will usually do. However, if you
 
 ### Default Functionality
 
-Paul provides four core commands within `bot.js` out of the box:
+EK provides four core commands within `bot.js` out of the box:
 
 * `help` - Generates a help message based on loaded commands
 * `load <file>` - Loads a new command from `<file>`
