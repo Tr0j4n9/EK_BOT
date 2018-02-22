@@ -5,7 +5,8 @@
     var economy = require('discord-eco');
     economy.fetchBalance('userID').then((i) => {
     	console.log(i) // { userID: '144645791145918464', money: 998, lastDaily: 'Not Collected' }
-        console.log(i.money) // 998
+      console.log(i.money) // 998
+      msg.channel.send(i.money);
     });
     
     
