@@ -19,6 +19,6 @@
   
   "devDependencies": {
     "discord.js": "latest",
-    "discord-eco": "latest",
+    "discord-eco": "latest"
   }
 }
