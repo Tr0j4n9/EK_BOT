@@ -143,7 +143,16 @@ var checkCommand = function(msg, isMention) {
 	}else {
 		var command = msg.content.split(bot.PREFIX)[1].split(" ")[0];
 		msg.content = msg.content.replace(bot.PREFIX + command + " ", "");
-		if(command) commands[command].main(bot, msg);
+        if(command) 
+        {
+            commands[command].main(bot, msg);
+
+        }
+        else
+        {
+            msg.channel.sendMessage("Sorry, command not found.")
+        }
+		
 	}
 }
 
