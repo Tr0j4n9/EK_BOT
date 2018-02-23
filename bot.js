@@ -123,36 +123,6 @@ commands.reload.main = function(bot, msg) {
 		bot.sendNotification("You do not have permission to use this command.", "error", msg);
 	}
 }
-commands.balance = {};
-commands.balance.args = '';
-commands.balance.help = '';
-commands.balance.hide = false;
-commands.balance.main = function(bot, msg) {
-	
-	economy.fetchBalance(msg.author.id).then((i) => { // economy.fetchBalance grabs the userID, finds it, and puts it into 'i'.
-        msg.channel.send(`**Balance:** ${i.money}`);
-		
-	})
-	
-	
-	
-}
-
-commands.daily = {};
-commands.daily.args = '';
-commands.daily.help = '';
-commands.daily.hide = false;
-commands.daily.main = function(bot, msg) {
-	
-	
-	economy.updateBalance(msg.author.id, 500).then((i) => { // economy.updateBalance grabs the (userID, value) value being how much you want to add, and puts it into 'i'.
-        msg.channel.send(`**You got $500!**\n**New Balance:** ${i.money}`);
-	
-	
-	})
-	
-	
-}
 
 var loadCommands = function() {
     var files = fs.readdirSync(__dirname+'/commands');
