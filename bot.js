@@ -48,7 +48,7 @@ commands.help.main = function(bot, msg) {
 			cmds.push({
 				name: bot.PREFIX + command,
 				value: commands[command].help,
-				inline: true
+				inline: false
 			});
         }
     }
@@ -150,6 +150,7 @@ var checkCommand = function(msg, isMention) {
 bot.on("ready", () => {
     console.log('Ready to begin! Serving in ' + bot.guilds.array().length + ' servers.');
     bot.user.setStatus("online", "");
+	bot.user.setGame('Type $help for help')
     loadCommands();
 });
 
