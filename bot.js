@@ -148,12 +148,6 @@ var checkCommand = function(msg, isMention) {
             commands[command].main(bot, msg);
 
         }
-        else
-        {
-            msg.channel.sendMessage("Sorry, command not found.")
-        }
-		
-	}
 }
 
 bot.on("ready", () => {
